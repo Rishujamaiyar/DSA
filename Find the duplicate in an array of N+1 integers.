@@ -1,7 +1,3 @@
-"""Find the duplicate in an array of N+1 integers.
-Brute: Sort the array / frequency array
-Optimal: fast and slow pointer (if duplicate elements exists there would be a loop in the circular traversal of the array, so
-Start from the first point run till they meet, assign fast to the first pointer then run again till they meet wherever they’ll meet would be the duplicate point ,return that point."""
 
 class Solution {
 public:
